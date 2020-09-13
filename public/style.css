@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #video-grid {
     display: flex;
     justify-content: center;
@@ -20,10 +25,14 @@ video {
     flex-direction: column;
 }
 
-.main__videos {
-    
-}
-
 .main__right {
     flex: 0.2;
+}
+
+.main__videos {
+    flex-grow: 1;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
